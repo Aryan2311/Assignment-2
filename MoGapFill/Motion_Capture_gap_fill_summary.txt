@@ -1,0 +1,10 @@
+Motion capture is frequently used for studies in biomechanics, and has proved particularly useful in understanding human motion. Unfortunately, motion capture approaches often fail when markers are occluded or missing and a mechanism by which the position of missing markers can be estimated is highly desirable. Of particular interest is the problem of estimating missing marker positions when no prior knowledge of marker placement is known. Existing approaches to marker completion in this scenario can be broadly divided into tracking approaches using dynamical modelling, and low rank matrix completion. This paper shows that these approaches can be combined to provide a marker completion algorithm that not only outperforms its respective components, but also solves the problem of incremental position error typically associated with tracking approaches.
+
+In this project I have made a model which can fill the gaps in the Human Motion Capture Datasets. it can fill the gaps in the marker trajectories.
+This model is a Matlab implementation of the Low Dimensional Kalman smoother process.
+
+I learned how to use Principal Component Analysisto project the training data into a lower dimensional space. And how to use SVD functions to perform Singular Value Decomposition to obtain the principal components (U, S, V).
+
+I learned how to use matrix operations for efficient computation.
+
+The code includes visualization capabilities to display the estimated hand pose and compare it with the ground truth markers. The plot3 function is used to plot the hand pose in 3D space.
