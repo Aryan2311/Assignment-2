@@ -1,0 +1,15 @@
+In this project I have made a Github Repository for evaluating the performance of various hand pose estimation models.I have taken various hand pose datasets like NYU, ICVL, MSRA datasets which are freely available online.
+We also have the predictive estimations of different models on these datasets.
+There are two types of evaluation metrics that are widely used for hand pose estimation:
+
+(1) Mean error for each joint
+
+(2) Success rate:
+
+The proportion of test frames whose average error falls below a threshold
+The proportion of test frames whose maximum error falls below a threshold
+The proportion of all joints whose error falls below a threshold
+
+Hand pose estimation models are designed to predict the 3D positions or joint angles of a hand given an input image or video. These models have been widely studied and evaluated in the computer vision and robotics communities.
+
+In this project we have used python for evaluating the models, I learned how to use various libraries like os, numpy, matplotlib, sys etc.effectively.
